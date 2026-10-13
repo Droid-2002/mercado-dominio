@@ -1,0 +1,11 @@
+C:\Users\saska\Desktop\INOA_Entrevista\mercado-dominio\src\Mercado.Dominio\bin\Debug\net10.0\Mercado.Dominio.deps.json
+C:\Users\saska\Desktop\INOA_Entrevista\mercado-dominio\src\Mercado.Dominio\bin\Debug\net10.0\Mercado.Dominio.dll
+C:\Users\saska\Desktop\INOA_Entrevista\mercado-dominio\src\Mercado.Dominio\bin\Debug\net10.0\Mercado.Dominio.pdb
+C:\Users\saska\Desktop\INOA_Entrevista\mercado-dominio\src\Mercado.Dominio\obj\Debug\net10.0\Mercado.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saska\Desktop\INOA_Entrevista\mercado-dominio\src\Mercado.Dominio\obj\Debug\net10.0\Mercado.Dominio.AssemblyInfoInputs.cache
+C:\Users\saska\Desktop\INOA_Entrevista\mercado-dominio\src\Mercado.Dominio\obj\Debug\net10.0\Mercado.Dominio.AssemblyInfo.cs
+C:\Users\saska\Desktop\INOA_Entrevista\mercado-dominio\src\Mercado.Dominio\obj\Debug\net10.0\Mercado.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\saska\Desktop\INOA_Entrevista\mercado-dominio\src\Mercado.Dominio\obj\Debug\net10.0\Mercado.Dominio.dll
+C:\Users\saska\Desktop\INOA_Entrevista\mercado-dominio\src\Mercado.Dominio\obj\Debug\net10.0\refint\Mercado.Dominio.dll
+C:\Users\saska\Desktop\INOA_Entrevista\mercado-dominio\src\Mercado.Dominio\obj\Debug\net10.0\Mercado.Dominio.pdb
+C:\Users\saska\Desktop\INOA_Entrevista\mercado-dominio\src\Mercado.Dominio\obj\Debug\net10.0\ref\Mercado.Dominio.dll
