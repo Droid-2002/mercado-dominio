@@ -14,7 +14,7 @@ public sealed record Ticker
 
         if (!Regex.IsMatch(valor, @"^[A-Z]{3,5}$"))
             throw new ArgumentException("O ticker deve conter apenas letras maiúsculas e ter entre 3 e 5 caracteres.", nameof(valor));
-
+        valor.Trim().ToUpperInvariant(); 
         Valor = valor;
     }
      public override string ToString() => Valor;
