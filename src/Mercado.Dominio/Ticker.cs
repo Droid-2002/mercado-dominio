@@ -4,19 +4,22 @@ namespace Mercado.Dominio;
 
 public sealed record Ticker
 {
-
     public string Valor { get; }
 
-    public Ticker (String valor)
+    public Ticker(string valor)
     {
         if (string.IsNullOrWhiteSpace(valor))
             throw new ArgumentException("O ticker não pode ser nulo ou vazio.", nameof(valor));
 
-        if (!Regex.IsMatch(valor, @"^[A-Z]{3,5}$"))
-            throw new ArgumentException("O ticker deve conter apenas letras maiúsculas e ter entre 3 e 5 caracteres.", nameof(valor));
-        valor.Trim().ToUpperInvariant(); 
-        Valor = valor;
+        var normalizado = valor.Trim().ToUpperInvariant();
+
+        if (!Regex.IsMatch(normalizado, "^[A-Z]{4}[0-9]{1,2}$"))
+            throw new ArgumentException(
+                $"Ticker inválido: '{valor}'. Esperado: 4 letras e 1 ou 2 dígitos (ex.: PETR4, BOVA11).",
+                nameof(valor));
+
+        Valor = normalizado;
     }
-     public override string ToString() => Valor;
-    
+
+    public override string ToString() => Valor;
 }
